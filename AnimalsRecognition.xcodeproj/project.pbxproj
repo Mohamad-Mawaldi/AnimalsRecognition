@@ -14,6 +14,8 @@
 		D1AB21E92ADE87C100C55255 /* AnimalsRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB21E82ADE87C100C55255 /* AnimalsRecognitionTests.swift */; };
 		D1AB21F32ADE87C100C55255 /* AnimalsRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB21F22ADE87C100C55255 /* AnimalsRecognitionUITests.swift */; };
 		D1AB21F52ADE87C100C55255 /* AnimalsRecognitionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB21F42ADE87C100C55255 /* AnimalsRecognitionUITestsLaunchTests.swift */; };
+		D1AB22022ADE8B1E00C55255 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D1AB22012ADE8B1D00C55255 /* MobileNet.mlmodel */; };
+		D1AB22062ADE8D7300C55255 /* DoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB22052ADE8D7300C55255 /* DoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		D1AB21EE2ADE87C100C55255 /* AnimalsRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalsRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1AB21F22ADE87C100C55255 /* AnimalsRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsRecognitionUITests.swift; sourceTree = "<group>"; };
 		D1AB21F42ADE87C100C55255 /* AnimalsRecognitionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsRecognitionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D1AB22012ADE8B1D00C55255 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNet.mlmodel; path = "../../../Downloads/BasicML-main/basicML/MobileNet.mlmodel"; sourceTree = "<group>"; };
+		D1AB22052ADE8D7300C55255 /* DoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +98,12 @@
 		D1AB21D62ADE87BA00C55255 /* AnimalsRecognition */ = {
 			isa = PBXGroup;
 			children = (
+				D1AB22012ADE8B1D00C55255 /* MobileNet.mlmodel */,
 				D1AB21D72ADE87BA00C55255 /* AnimalsRecognitionApp.swift */,
 				D1AB21D92ADE87BA00C55255 /* ContentView.swift */,
 				D1AB21DB2ADE87C000C55255 /* Assets.xcassets */,
 				D1AB21DD2ADE87C000C55255 /* Preview Content */,
+				D1AB22052ADE8D7300C55255 /* DoModel.swift */,
 			);
 			path = AnimalsRecognition;
 			sourceTree = "<group>";
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1AB22062ADE8D7300C55255 /* DoModel.swift in Sources */,
 				D1AB21DA2ADE87BA00C55255 /* ContentView.swift in Sources */,
 				D1AB21D82ADE87BA00C55255 /* AnimalsRecognitionApp.swift in Sources */,
+				D1AB22022ADE8B1E00C55255 /* MobileNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
