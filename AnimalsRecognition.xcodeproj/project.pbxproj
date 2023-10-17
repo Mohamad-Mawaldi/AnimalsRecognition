@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1AB21D82ADE87BA00C55255 /* AnimalsRecognitionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB21D72ADE87BA00C55255 /* AnimalsRecognitionApp.swift */; };
+		D1AB21DA2ADE87BA00C55255 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB21D92ADE87BA00C55255 /* ContentView.swift */; };
+		D1AB21DC2ADE87C000C55255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1AB21DB2ADE87C000C55255 /* Assets.xcassets */; };
+		D1AB21DF2ADE87C000C55255 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1AB21DE2ADE87C000C55255 /* Preview Assets.xcassets */; };
+		D1AB21E92ADE87C100C55255 /* AnimalsRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB21E82ADE87C100C55255 /* AnimalsRecognitionTests.swift */; };
+		D1AB21F32ADE87C100C55255 /* AnimalsRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB21F22ADE87C100C55255 /* AnimalsRecognitionUITests.swift */; };
+		D1AB21F52ADE87C100C55255 /* AnimalsRecognitionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB21F42ADE87C100C55255 /* AnimalsRecognitionUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1AB21E52ADE87C100C55255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1AB21CC2ADE87BA00C55255 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1AB21D32ADE87BA00C55255;
+			remoteInfo = AnimalsRecognition;
+		};
+		D1AB21EF2ADE87C100C55255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1AB21CC2ADE87BA00C55255 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1AB21D32ADE87BA00C55255;
+			remoteInfo = AnimalsRecognition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1AB21D42ADE87BA00C55255 /* AnimalsRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalsRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1AB21D72ADE87BA00C55255 /* AnimalsRecognitionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsRecognitionApp.swift; sourceTree = "<group>"; };
+		D1AB21D92ADE87BA00C55255 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D1AB21DB2ADE87C000C55255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1AB21DE2ADE87C000C55255 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D1AB21E42ADE87C100C55255 /* AnimalsRecognitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalsRecognitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1AB21E82ADE87C100C55255 /* AnimalsRecognitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsRecognitionTests.swift; sourceTree = "<group>"; };
+		D1AB21EE2ADE87C100C55255 /* AnimalsRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalsRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1AB21F22ADE87C100C55255 /* AnimalsRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsRecognitionUITests.swift; sourceTree = "<group>"; };
+		D1AB21F42ADE87C100C55255 /* AnimalsRecognitionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsRecognitionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1AB21D12ADE87BA00C55255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1AB21E12ADE87C100C55255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1AB21EB2ADE87C100C55255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1AB21CB2ADE87BA00C55255 = {
+			isa = PBXGroup;
+			children = (
+				D1AB21D62ADE87BA00C55255 /* AnimalsRecognition */,
+				D1AB21E72ADE87C100C55255 /* AnimalsRecognitionTests */,
+				D1AB21F12ADE87C100C55255 /* AnimalsRecognitionUITests */,
+				D1AB21D52ADE87BA00C55255 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1AB21D52ADE87BA00C55255 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1AB21D42ADE87BA00C55255 /* AnimalsRecognition.app */,
+				D1AB21E42ADE87C100C55255 /* AnimalsRecognitionTests.xctest */,
+				D1AB21EE2ADE87C100C55255 /* AnimalsRecognitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1AB21D62ADE87BA00C55255 /* AnimalsRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				D1AB21D72ADE87BA00C55255 /* AnimalsRecognitionApp.swift */,
+				D1AB21D92ADE87BA00C55255 /* ContentView.swift */,
+				D1AB21DB2ADE87C000C55255 /* Assets.xcassets */,
+				D1AB21DD2ADE87C000C55255 /* Preview Content */,
+			);
+			path = AnimalsRecognition;
+			sourceTree = "<group>";
+		};
+		D1AB21DD2ADE87C000C55255 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D1AB21DE2ADE87C000C55255 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D1AB21E72ADE87C100C55255 /* AnimalsRecognitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1AB21E82ADE87C100C55255 /* AnimalsRecognitionTests.swift */,
+			);
+			path = AnimalsRecognitionTests;
+			sourceTree = "<group>";
+		};
+		D1AB21F12ADE87C100C55255 /* AnimalsRecognitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1AB21F22ADE87C100C55255 /* AnimalsRecognitionUITests.swift */,
+				D1AB21F42ADE87C100C55255 /* AnimalsRecognitionUITestsLaunchTests.swift */,
+			);
+			path = AnimalsRecognitionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1AB21D32ADE87BA00C55255 /* AnimalsRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1AB21F82ADE87C100C55255 /* Build configuration list for PBXNativeTarget "AnimalsRecognition" */;
+			buildPhases = (
+				D1AB21D02ADE87BA00C55255 /* Sources */,
+				D1AB21D12ADE87BA00C55255 /* Frameworks */,
+				D1AB21D22ADE87BA00C55255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimalsRecognition;
+			productName = AnimalsRecognition;
+			productReference = D1AB21D42ADE87BA00C55255 /* AnimalsRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1AB21E32ADE87C100C55255 /* AnimalsRecognitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1AB21FB2ADE87C100C55255 /* Build configuration list for PBXNativeTarget "AnimalsRecognitionTests" */;
+			buildPhases = (
+				D1AB21E02ADE87C100C55255 /* Sources */,
+				D1AB21E12ADE87C100C55255 /* Frameworks */,
+				D1AB21E22ADE87C100C55255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1AB21E62ADE87C100C55255 /* PBXTargetDependency */,
+			);
+			name = AnimalsRecognitionTests;
+			productName = AnimalsRecognitionTests;
+			productReference = D1AB21E42ADE87C100C55255 /* AnimalsRecognitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1AB21ED2ADE87C100C55255 /* AnimalsRecognitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1AB21FE2ADE87C100C55255 /* Build configuration list for PBXNativeTarget "AnimalsRecognitionUITests" */;
+			buildPhases = (
+				D1AB21EA2ADE87C100C55255 /* Sources */,
+				D1AB21EB2ADE87C100C55255 /* Frameworks */,
+				D1AB21EC2ADE87C100C55255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1AB21F02ADE87C100C55255 /* PBXTargetDependency */,
+			);
+			name = AnimalsRecognitionUITests;
+			productName = AnimalsRecognitionUITests;
+			productReference = D1AB21EE2ADE87C100C55255 /* AnimalsRecognitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1AB21CC2ADE87BA00C55255 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D1AB21D32ADE87BA00C55255 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					D1AB21E32ADE87C100C55255 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = D1AB21D32ADE87BA00C55255;
+					};
+					D1AB21ED2ADE87C100C55255 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = D1AB21D32ADE87BA00C55255;
+					};
+				};
+			};
+			buildConfigurationList = D1AB21CF2ADE87BA00C55255 /* Build configuration list for PBXProject "AnimalsRecognition" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1AB21CB2ADE87BA00C55255;
+			productRefGroup = D1AB21D52ADE87BA00C55255 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1AB21D32ADE87BA00C55255 /* AnimalsRecognition */,
+				D1AB21E32ADE87C100C55255 /* AnimalsRecognitionTests */,
+				D1AB21ED2ADE87C100C55255 /* AnimalsRecognitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1AB21D22ADE87BA00C55255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1AB21DF2ADE87C000C55255 /* Preview Assets.xcassets in Resources */,
+				D1AB21DC2ADE87C000C55255 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1AB21E22ADE87C100C55255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1AB21EC2ADE87C100C55255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1AB21D02ADE87BA00C55255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1AB21DA2ADE87BA00C55255 /* ContentView.swift in Sources */,
+				D1AB21D82ADE87BA00C55255 /* AnimalsRecognitionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1AB21E02ADE87C100C55255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1AB21E92ADE87C100C55255 /* AnimalsRecognitionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1AB21EA2ADE87C100C55255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1AB21F52ADE87C100C55255 /* AnimalsRecognitionUITestsLaunchTests.swift in Sources */,
+				D1AB21F32ADE87C100C55255 /* AnimalsRecognitionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1AB21E62ADE87C100C55255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1AB21D32ADE87BA00C55255 /* AnimalsRecognition */;
+			targetProxy = D1AB21E52ADE87C100C55255 /* PBXContainerItemProxy */;
+		};
+		D1AB21F02ADE87C100C55255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1AB21D32ADE87BA00C55255 /* AnimalsRecognition */;
+			targetProxy = D1AB21EF2ADE87C100C55255 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D1AB21F62ADE87C100C55255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1AB21F72ADE87C100C55255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1AB21F92ADE87C100C55255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimalsRecognition/Preview Content\"";
+				DEVELOPMENT_TEAM = LY84C4XUY3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mohamad.AnimalsRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1AB21FA2ADE87C100C55255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimalsRecognition/Preview Content\"";
+				DEVELOPMENT_TEAM = LY84C4XUY3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mohamad.AnimalsRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1AB21FC2ADE87C100C55255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LY84C4XUY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mohamad.AnimalsRecognitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalsRecognition.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimalsRecognition";
+			};
+			name = Debug;
+		};
+		D1AB21FD2ADE87C100C55255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LY84C4XUY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mohamad.AnimalsRecognitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalsRecognition.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimalsRecognition";
+			};
+			name = Release;
+		};
+		D1AB21FF2ADE87C100C55255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LY84C4XUY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mohamad.AnimalsRecognitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimalsRecognition;
+			};
+			name = Debug;
+		};
+		D1AB22002ADE87C100C55255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LY84C4XUY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mohamad.AnimalsRecognitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimalsRecognition;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1AB21CF2ADE87BA00C55255 /* Build configuration list for PBXProject "AnimalsRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1AB21F62ADE87C100C55255 /* Debug */,
+				D1AB21F72ADE87C100C55255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1AB21F82ADE87C100C55255 /* Build configuration list for PBXNativeTarget "AnimalsRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1AB21F92ADE87C100C55255 /* Debug */,
+				D1AB21FA2ADE87C100C55255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1AB21FB2ADE87C100C55255 /* Build configuration list for PBXNativeTarget "AnimalsRecognitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1AB21FC2ADE87C100C55255 /* Debug */,
+				D1AB21FD2ADE87C100C55255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1AB21FE2ADE87C100C55255 /* Build configuration list for PBXNativeTarget "AnimalsRecognitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1AB21FF2ADE87C100C55255 /* Debug */,
+				D1AB22002ADE87C100C55255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1AB21CC2ADE87BA00C55255 /* Project object */;
+}
