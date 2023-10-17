@@ -11,26 +11,22 @@ import UIKit
 
 class DoModel {
     
-    func doImage() {
+    func doImage( from animalImage: UIImage ) -> MobileNetOutput? {
         
         let defaultConfig = MLModelConfiguration()
-
-        // Create an instance of the image classifier's wrapper class.
+        
         let imageClassifierWrapper = try? MobileNet(configuration: defaultConfig)
         
-        let theimage = UIImage(named: "beagle")
-        let theimageBuffer = buffer(from: theimage!)!
+        let theimageBuffer = buffer(from: animalImage)!
         
         do {
-            let output = try imageClassifierWrapper!.prediction(image: theimageBuffer)
-            
-            
-            print(output.classLabel)
-            print(output.classLabelProbs[output.classLabel]!)
-
+            return try imageClassifierWrapper!.prediction(image: theimageBuffer)
+                        
         } catch {
             // error
         }
+        return nil
+        
     }
 
     
